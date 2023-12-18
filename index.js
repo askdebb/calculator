@@ -58,7 +58,7 @@ function divide(num1, num2){
 
 var num1 = parseInt(prompt("Enter first number:", "0"), 10);
 var num2 = parseInt(prompt("Enter second number:","0"), 10);
-var sign = prompt("Enter operator: ");
+var sign = prompt("Enter operator (+, -, *, /): ");
 var optr = operatorSelector(sign);
 console.log(num1);
 console.log(num2);
